@@ -4,11 +4,19 @@ public class App {
         
         int fibo=serie.fibonacci(5);
         System.out.println("Resultado del numero 5 de la serie fibonacci: "+fibo);
+
         int sum=serie.sumaConsecutivos(4);
         System.out.println("Suma de los numeros hasta "+4+" es igual a "+sum);
+
         int suma=serie.digito(125);
         System.out.println("Resultado de digitos: "+suma);
+
         int resul=serie.getPotencia(2, 3);
         System.out.println("Resultado de la potencia: "+resul);
+
+        System.out.println("orden descendente de 5: ");
+        serie.orden(5);
+        System.out.println("\nINVERSO de 123: ");
+        serie.Inverso(123);
     }
 }

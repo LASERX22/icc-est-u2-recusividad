@@ -34,5 +34,22 @@ public class EjerciciosRecursivos {
         int resultado=ultimo+digito(n/10);
         return resultado;
     }
+
+    public void orden(int n){
+        if(n<1){
+            return;
+        }
+        System.out.print(n+" ");
+        orden(n-1);
+    }
+    public void Inverso(int n){
+        if(n < 10){
+            System.out.print(n);
+        }
+        else{
+            System.out.print(n% 10);
+            Inverso(n /10);
+        }  
+    }
 }
 
